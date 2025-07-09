@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2280061-b276-4ee2-be6c-27fbfea05879" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/model/classify.py" afterDir="false" />
+    <list default="true" id="a2280061-b276-4ee2-be6c-27fbfea05879" name="Changes" comment="add function from df to dict">
+      <change afterPath="$PROJECT_DIR$/model/trainer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/cleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/classify.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +49,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.classify.executor": "Run",
+    "Python.trainer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "trainer"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -77,7 +78,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1751976810840</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="add function from df to dict">
+      <option name="closed" value="true" />
+      <created>1752048625590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752048625590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -85,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="add function from df to dict" />
+    <option name="LAST_COMMIT_MESSAGE" value="add function from df to dict" />
   </component>
 </project>
