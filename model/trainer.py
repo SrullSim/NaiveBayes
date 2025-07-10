@@ -11,7 +11,6 @@ class Trainer:
     def __init__(self, path, target):
         # self.model = Classify()
         # self.df = self.model.from_data_to_dict(path, target)
-        # self.target = target
         # self._dict_columns = self.set_dict_columns(self.df)
         pass
 
@@ -35,9 +34,6 @@ class Trainer:
 
 
 
-
-c = Classify()
-probability(c.csv_to_full_nested_count_dict(r"C:\\Users\\User\Desktop\\DATA\\NaiveBayes\\data_for_NB_buys_computer-Sheet1.csv", 'Buy_Computer'))
 
 
 
