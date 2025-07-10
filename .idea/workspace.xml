@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2280061-b276-4ee2-be6c-27fbfea05879" name="Changes" comment="add function from df to dict">
-      <change afterPath="$PROJECT_DIR$/model/trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/classify.py" afterDir="false" />
+    <list default="true" id="a2280061-b276-4ee2-be6c-27fbfea05879" name="Changes" comment="add api">
+      <change beforePath="$PROJECT_DIR$/model/cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/cleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,22 +23,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SrullSim"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SrullSim&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/SrullSim/NaiveBayes.git",
     "accountId": "ea16b1e1-987c-4da5-b720-203516499ed0"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "SrullSim",
+    "repository": "NaiveBayes"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/model/classify.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2zakYQwGUMd7knKwZcfaK7Vzen9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,11 +61,44 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.classify.executor": "Run",
+    "Python.cleaner.executor": "Run",
+    "Python.fast_api.executor": "Run",
+    "Python.fast_api_params.executor": "Run",
     "Python.trainer.executor": "Run",
+    "Python.try.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "trainer"
+    "git-widget-placeholder": "#1 on trainer"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="fast_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NaiveBayes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/fast_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fast_api" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,7 +131,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1752048625590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="add trainer class">
+      <option name="closed" value="true" />
+      <created>1752062370814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752062370814</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="add api">
+      <option name="closed" value="true" />
+      <created>1752142082807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752142082807</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -95,6 +156,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add function from df to dict" />
-    <option name="LAST_COMMIT_MESSAGE" value="add function from df to dict" />
+    <MESSAGE value="add trainer class" />
+    <MESSAGE value="add api" />
+    <option name="LAST_COMMIT_MESSAGE" value="add api" />
   </component>
 </project>
