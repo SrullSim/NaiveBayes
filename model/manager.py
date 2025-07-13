@@ -3,6 +3,7 @@ from trainer import Trainer
 from inputs import Inputs
 
 
+
 class Manager:
 
     def menu(self):
@@ -20,6 +21,7 @@ class Manager:
                 return "Your dataset is not big enough, did not pass test"
         except:
             return "Un-valid model"
+
 
 
 def drop_column_fun():
@@ -43,4 +45,5 @@ def drop_column_fun():
 if __name__ == '__main__':
     manager = Manager()
     answ = manager.menu()
+    answ = menu()
     print(answ)
