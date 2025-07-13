@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2280061-b276-4ee2-be6c-27fbfea05879" name="Changes" comment="add api">
-      <change afterPath="$PROJECT_DIR$/model/inputs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/manager.py" afterDir="false" />
+
+    <list default="true" id="a2280061-b276-4ee2-be6c-27fbfea05879" name="Changes" comment="restart project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/classify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/cleaner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/fast_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/fast_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/manager.py" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +78,9 @@
     "Python.trainer.executor": "Run",
     "Python.try.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "restart1"
-  }
+
+    "git-widget-placeholder": "#3 on restart1"
+}
 }]]></component>
   <component name="RunManager">
     <configuration name="fast_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -190,7 +190,17 @@
       <option name="project" value="LOCAL‎" />
       <updated>1752142181090</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+
+    <task id="LOCAL‎-00006" summary="restart project">
+      <option name="closed" value="true" />
+      <created>1752392435846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752392435846</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -201,6 +211,7 @@
     <MESSAGE value="add function from df to dict" />
     <MESSAGE value="add trainer class" />
     <MESSAGE value="add api" />
-    <option name="LAST_COMMIT_MESSAGE" value="add api" />
+    <MESSAGE value="restart project" />
+    <option name="LAST_COMMIT_MESSAGE" value="restart project" />
   </component>
 </project>
