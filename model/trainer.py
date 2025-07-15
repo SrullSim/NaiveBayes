@@ -34,14 +34,16 @@ class Trainer:
                 right += 1
             else:
                 wrong += 1
+
         return right / (right + wrong)
 
 
-# model = Model(r'C:\Users\User\Desktop\DATA\NaiveBayes\data_for_NB_buys_computer-Sheet1.csv','Buy_Computer','id')
-#
-# tester = Tester(model)
-#
-# print(tester.test())
+model = Model(r'"agaricuslepiota.csv"','Buy_Computer','id')
+# model = Model('phishing.csv','class','Index')
+
+tester = Trainer(model)
+
+print(tester.test())
 
 
 

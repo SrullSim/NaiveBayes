@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="a2280061-b276-4ee2-be6c-27fbfea05879" name="Changes" comment="restart project">
+      <change afterPath="$PROJECT_DIR$/model/cleaning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/fast_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/fast_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/fast_api_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/fastapi_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/classify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/inputs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/manager.py" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/model/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +40,22 @@
     &quot;assignee&quot;: &quot;SrullSim&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SrullSim/NaiveBayes.git",
-    "accountId": "ea16b1e1-987c-4da5-b720-203516499ed0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SrullSim/NaiveBayes.git&quot;,
+    &quot;accountId&quot;: &quot;ea16b1e1-987c-4da5-b720-203516499ed0&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "SrullSim",
-    "repository": "NaiveBayes"
+    &quot;owner&quot;: &quot;SrullSim&quot;,
+    &quot;repository&quot;: &quot;NaiveBayes&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/model/classify.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -78,9 +81,8 @@
     "Python.trainer.executor": "Run",
     "Python.try.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-
-    "git-widget-placeholder": "#3 on restart1"
-}
+    "git-widget-placeholder": "master"
+  }
 }]]></component>
   <component name="RunManager">
     <configuration name="fast_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -129,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manager" />
         <item itemvalue="Python.fast_api" />
+        <item itemvalue="Python.manager" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +192,6 @@
       <option name="project" value="LOCAL‎" />
       <updated>1752142181090</updated>
     </task>
-
     <task id="LOCAL‎-00006" summary="restart project">
       <option name="closed" value="true" />
       <created>1752392435846</created>
@@ -200,7 +201,6 @@
       <updated>1752392435846</updated>
     </task>
     <option name="localTasksCounter" value="7" />
-
     <servers />
   </component>
   <component name="UnknownFeatures">

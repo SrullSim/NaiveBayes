@@ -6,7 +6,7 @@ from classify import ProbabilityCalculater
 class Inputs:
     def __init__(self,model):
         self.model = model
-        self.dict_values = self.model.dict_values()
+        self.dict_values = self.model.dict_values1()
         self.calculate = ProbabilityCalculater(self.model)
 
     def create_dict(self):

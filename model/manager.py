@@ -45,5 +45,4 @@ def drop_column_fun():
 if __name__ == '__main__':
     manager = Manager()
     answ = manager.menu()
-    answ = menu()
     print(answ)
