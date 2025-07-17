@@ -6,18 +6,20 @@ class ProbabilityCalculater:
         self.dict_values = self.model.dict_values()
         self.dict_class_values = self.model.dict_class()
 
-
     def probability(self,input_dict):
-        final_dict = {}
+        """ calculate the probability for dict of option """
+        prob_dict = {}
+        # mult probability for each option column
         for keys in self.dict_values:
-            num = 1
+            probability = 1
             for key, value in input_dict.items():
                 if self.dict_values[keys][key][value] != 0 :
-                    num *= self.dict_values[keys][key][value]
+                    probability *= self.dict_values[keys][key][value]
+                # add 1 if found 0
                 else:
                     self.dict_values[keys][key][value] += 1
-                    num *= self.dict_values[keys][key][value]
-                final_dict[keys] = num * self.dict_class_values[keys]
-        return max( final_dict,key=final_dict.get)
+                    probability *= self.dict_values[keys][key][value]
+                prob_dict[keys] = probability * self.dict_class_values[keys]
+        return max( prob_dict,key=prob_dict.get)
 
 

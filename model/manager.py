@@ -13,12 +13,12 @@ class Manager:
         columns_to_drop = drop_column_fun()
         try:
             model = Model(path, column_to_work_on, columns_to_drop)
-            test = Trainer(model)
-            if test.test() >= 0.9:
+            train = Trainer(model)
+            if train.test() >= 0.9:
                 ans = Inputs(model)
                 return f"The answer to you query is: {ans.probability()}"
             else:
-                return "Your dataset is not big enough, did not pass test"
+                return "Your dataset is not big enough, did not pass train"
         except:
             return "Un-valid model"
 
@@ -46,4 +46,4 @@ def drop_column_fun():
 if __name__ == '__main__':
     manager = Manager()
     answ = manager.main()
-    print(answ)
+    # print(answ)

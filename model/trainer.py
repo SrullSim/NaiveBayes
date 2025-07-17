@@ -8,7 +8,7 @@ class Trainer:
 
     def __init__(self,model):
         self.model =model
-        self.probable = ProbabilityCalculater(self.model)
+        self.probable = probabilityCalculater.ProbabilityCalculater(self.model)
 
     def sample(self,fraction):
         return self.model.DF.sample(frac=fraction)
