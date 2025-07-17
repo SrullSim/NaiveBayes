@@ -1,10 +1,9 @@
 
 
-
 class ProbabilityCalculater:
     def __init__(self,model):
         self.model = model
-        self.dict_values = self.model.dict_values1()
+        self.dict_values = self.model.dict_values()
         self.dict_class_values = self.model.dict_class()
 
 

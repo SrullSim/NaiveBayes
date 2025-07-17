@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2280061-b276-4ee2-be6c-27fbfea05879" name="Changes" comment="restart project">
-      <change afterPath="$PROJECT_DIR$/model/cleaning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/fast_api_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/fastapi_requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/classify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agaricuslepiota.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/fast_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/fast_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/fastapi_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/fastapi_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/probabilityCalculater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/cleaning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/inputs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,32 +60,36 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/model/classify.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/model/manager.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2zakYQwGUMd7knKwZcfaK7Vzen9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Doctests in base.executor": "Run",
-    "Python.classify.executor": "Run",
-    "Python.cleaner.executor": "Run",
-    "Python.fast_api.executor": "Run",
-    "Python.fast_api_params.executor": "Run",
-    "Python.inputs.executor": "Run",
-    "Python.manager.executor": "Run",
-    "Python.trainer.executor": "Run",
-    "Python.try.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Doctests in base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classify.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cleaner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fast_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fast_api_params.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inputs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trainer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.try.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3337041&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="fast_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NaiveBayes" />
@@ -139,7 +145,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-af26db0dccfe-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.26775.22" />
+        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -200,7 +206,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1752392435846</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎-00007" summary="restart project">
+      <option name="closed" value="true" />
+      <created>1752568976019</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752568976019</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">

@@ -5,7 +5,7 @@ import pandas as pd
 class Model:
 
     def __init__(self, path, column_to_work_on, drops= None):
-        self.DF = pd.read_csv(path)
+        self.DF = self.cleaning(pd.read_csv(path))
         self.column_to_work_on = column_to_work_on
         if drops:
             self.DF.drop(drops, axis=1, inplace=True)
@@ -62,39 +62,43 @@ class Model:
         # pprint(dict1)
         return dict1
 
+    def cleaning(self, df):
+        df = df.dropna()
+        df = df.drop_duplicates()
+        return df
 
-    def dict_values1(self):
-        """ build dict of all values in df  """
-
-        all_columns = [col for col in self.DF.columns if col != self.column_to_work_on]
-        unique_values_dict = {col: self.unique_values(self.DF, col) for col in all_columns}
-        target_unique_values = self.unique_values(self.DF, self.column_to_work_on)
-        result = {}
-
-        for target_val in target_unique_values:
-            split_df = self.split_dataframe_by_value(self.column_to_work_on, target_val)
-            count_in_class = self.amount_of_all_values(split_df)
-            col_dict = {}
-
-            for col in all_columns:
-                unique_vals = unique_values_dict[col]
-                unique_vals_in_class = self.unique_values(split_df, col)
-                inner_dict = {}
-
-
-                if len(unique_vals) == len(unique_vals_in_class):
-                    for val in unique_vals:
-                        count_val = self.amount_of_unique_values(split_df, col, val)
-                        inner_dict[val] = count_val / count_in_class if count_in_class > 0 else 0
-                else:
-                    smoothed_denominator = count_in_class + len(unique_vals)
-                    for val in unique_vals:
-                        count_val = self.amount_of_unique_values(split_df, col, val) + 1
-                        inner_dict[val] = count_val / smoothed_denominator if smoothed_denominator > 0 else 0
-
-                col_dict[col] = inner_dict
-
-            result[target_val] = col_dict
-        # pprint(result)
-        return result
+    # def dict_values1(self):
+    #     """ build dict of all values in df  """
+    #
+    #     all_columns = [col for col in self.DF.columns if col != self.column_to_work_on]
+    #     unique_values_dict = {col: self.unique_values(self.DF, col) for col in all_columns}
+    #     target_unique_values = self.unique_values(self.DF, self.column_to_work_on)
+    #     result = {}
+    #
+    #     for target_val in target_unique_values:
+    #         split_df = self.split_dataframe_by_value(self.column_to_work_on, target_val)
+    #         count_in_class = self.amount_of_all_values(split_df)
+    #         col_dict = {}
+    #
+    #         for col in all_columns:
+    #             unique_vals = unique_values_dict[col]
+    #             unique_vals_in_class = self.unique_values(split_df, col)
+    #             inner_dict = {}
+    #
+    #
+    #             if len(unique_vals) == len(unique_vals_in_class):
+    #                 for val in unique_vals:
+    #                     count_val = self.amount_of_unique_values(split_df, col, val)
+    #                     inner_dict[val] = count_val / count_in_class if count_in_class > 0 else 0
+    #             else:
+    #                 smoothed_denominator = count_in_class + len(unique_vals)
+    #                 for val in unique_vals:
+    #                     count_val = self.amount_of_unique_values(split_df, col, val) + 1
+    #                     inner_dict[val] = count_val / smoothed_denominator if smoothed_denominator > 0 else 0
+    #
+    #             col_dict[col] = inner_dict
+    #
+    #         result[target_val] = col_dict
+    #     # pprint(result)
+    #     return result
 

@@ -6,7 +6,7 @@ from inputs import Inputs
 
 class Manager:
 
-    def menu(self):
+    def main(self):
         print("Welcome to the program")
         path = input("enter path to the CSV file")
         column_to_work_on = input("Which column to work on ")
@@ -21,6 +21,7 @@ class Manager:
                 return "Your dataset is not big enough, did not pass test"
         except:
             return "Un-valid model"
+
 
 
 
@@ -44,5 +45,5 @@ def drop_column_fun():
 
 if __name__ == '__main__':
     manager = Manager()
-    answ = manager.menu()
+    answ = manager.main()
     print(answ)

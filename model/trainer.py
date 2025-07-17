@@ -1,7 +1,7 @@
 import pandas as pd
 from pprint import  pprint
-from model import Model
-from classify import ProbabilityCalculater
+import model
+import probabilityCalculater
 
 
 class Trainer:
@@ -38,24 +38,11 @@ class Trainer:
         return right / (right + wrong)
 
 
-model = Model(r'"agaricuslepiota.csv"','Buy_Computer','id')
+# model = Model(r'C:\Users\User\Desktop\DATA\NaiveBayes\data_for_NB_buys_computer-Sheet1.csv','Buy_Computer','id')
 # model = Model('phishing.csv','class','Index')
 
-tester = Trainer(model)
 
-print(tester.test())
+# tester = Trainer(model)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+# print(tester.test())
 
